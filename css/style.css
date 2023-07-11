@@ -205,6 +205,98 @@
     object-fit: cover;
 }
 
+/* ======== testimonial section ====== */
+#testimonial {
+    padding-top: 128px;
+}
+
+.testimonial__container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.testimonial__card {
+    width: 464px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 35px 30px;
+}
+
+.testimonial__star {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.testimonial__star li i {
+    font-size: 20px;
+    color: #EA3A60;
+}
+
+.testimonial__heading {
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.testimonial__details {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.testimonial__person {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.testi__person__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.testi__person__img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testi__person__detail h4 {
+    color: #272727;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.testi__person__detail a {
+    color: rgba(39, 39, 39, 0.719);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.testimonial__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.testimonial__btn li i {
+    cursor: pointer;
+    font-size: 30px;
+    color: #EA3A60;
+}
+
 /* ======== latest deal section ====== */
 #latest__deal {
     padding: 128px 0;
